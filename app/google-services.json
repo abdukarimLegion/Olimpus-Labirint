@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "593628152757",
+    "project_id": "com-jadenozero-madrko",
+    "storage_bucket": "com-jadenozero-madrko.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:593628152757:android:b531e3d2a22732b5b90ffc",
+        "android_client_info": {
+          "package_name": "com.fedlo.tom.olimpuslabirint"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "593628152757-i18h5uc3igjgiquqv2ir4h26f3d5ecee.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCots26K07SofVA9Vzt-gHlfxGdlEjms-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "593628152757-i18h5uc3igjgiquqv2ir4h26f3d5ecee.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

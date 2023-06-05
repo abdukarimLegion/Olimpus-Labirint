@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:contentDescription="@string/app_name">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <LinearLayout
+            android:layout_width="70dp"
+            android:id="@+id/btn_lvl1"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:layout_margin="12dp"
+            android:background="@drawable/lvl_back" >
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+            android:textSize="12sp"
+             android:gravity="center"
+             android:text="Not \n completed"
+             android:id="@+id/tv_lvl1"
+           />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_lvl2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:layout_margin="12dp"
+            android:background="@drawable/lvl_back" >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+               android:textSize="12sp"
+                android:gravity="center"
+                android:text="Not \n completed"
+                android:id="@+id/tv_lvl2"
+            />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/btn_lvl3"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:layout_margin="12dp"
+            android:background="@drawable/lvl_back" >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+               android:textSize="12sp"
+                android:gravity="center"
+                android:text="Not \n completed"
+                android:id="@+id/tv_lvl3"
+            />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/btn_lvl4"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:layout_margin="12dp"
+            android:background="@drawable/lvl_back" >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+               android:textSize="12sp"
+                android:gravity="center"
+                android:text="Not \n completed"
+                android:id="@+id/tv_lvl4"
+            />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <LinearLayout
+            android:layout_width="70dp"
+            android:id="@+id/btn_lvl5"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:layout_margin="12dp"
+            android:background="@drawable/lvl_back" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+               android:textSize="12sp"
+                android:gravity="center"
+                android:text="Not \n completed"
+                android:id="@+id/tv_lvl5"
+            />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_lvl6"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:layout_margin="12dp"
+            android:background="@drawable/lvl_back" >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+               android:textSize="12sp"
+                android:gravity="center"
+                android:text="Not \n completed"
+                android:id="@+id/tv_lvl6"
+            />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/btn_lvl7"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:layout_margin="12dp"
+            android:background="@drawable/lvl_back" >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+               android:textSize="12sp"
+                android:gravity="center"
+                android:text="Not \n completed"
+                android:id="@+id/tv_lvl7"
+            />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/btn_lvl8"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:layout_margin="12dp"
+            android:background="@drawable/lvl_back" >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+               android:textSize="12sp"
+                android:gravity="center"
+                android:text="Not \n completed"
+                android:id="@+id/tv_lvl8"
+            />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <LinearLayout
+            android:layout_width="70dp"
+            android:id="@+id/btn_lvl9"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:layout_margin="12dp"
+            android:background="@drawable/lvl_back" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+               android:textSize="12sp"
+                android:gravity="center"
+                android:text="Not \n completed"
+                android:id="@+id/tv_lvl9"
+            />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_lvl10"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:layout_margin="12dp"
+            android:background="@drawable/lvl_back" >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+               android:textSize="12sp"
+                android:gravity="center"
+                android:text="Not \n completed"
+                android:id="@+id/tv_lvl10"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/btn_lvl11"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:layout_margin="12dp"
+            android:background="@drawable/lvl_back" >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+               android:textSize="12sp"
+                android:gravity="center"
+                android:text="Not \n completed"
+                android:id="@+id/tv_lvl11"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/btn_lvl12"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:layout_margin="12dp"
+            android:background="@drawable/lvl_back" >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+               android:textSize="12sp"
+                android:gravity="center"
+                android:text="Not \n completed"
+                android:id="@+id/tv_lvl12"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <LinearLayout
+            android:layout_width="70dp"
+            android:id="@+id/btn_lvl13"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:layout_margin="12dp"
+            android:background="@drawable/lvl_back" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+               android:textSize="12sp"
+                android:gravity="center"
+                android:text="Not \n completed"
+                android:id="@+id/tv_lvl13"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_lvl14"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:layout_margin="12dp"
+            android:background="@drawable/lvl_back" >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+               android:textSize="12sp"
+                android:gravity="center"
+                android:text="Not \n completed"
+                android:id="@+id/tv_lvl14"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/btn_lvl15"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:layout_margin="12dp"
+            android:background="@drawable/lvl_back" >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+               android:textSize="12sp"
+                android:gravity="center"
+                android:text="Not \n completed"
+                android:id="@+id/tv_lvl15"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/btn_lvl16"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:layout_margin="12dp"
+            android:background="@drawable/lvl_back" >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+               android:textSize="12sp"
+                android:gravity="center"
+                android:text="Not \n completed"
+                android:id="@+id/tv_lvl16"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <LinearLayout
+            android:layout_width="70dp"
+            android:id="@+id/btn_lvl17"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:layout_margin="12dp"
+            android:background="@drawable/lvl_back" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+               android:textSize="12sp"
+                android:gravity="center"
+                android:text="Not \n completed"
+                android:id="@+id/tv_lvl17"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_lvl18"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:layout_margin="12dp"
+            android:background="@drawable/lvl_back" >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+               android:textSize="12sp"
+                android:gravity="center"
+                android:text="Not \n completed"
+                android:id="@+id/tv_lvl18"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/btn_lvl19"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:layout_margin="12dp"
+            android:background="@drawable/lvl_back" >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+               android:textSize="12sp"
+                android:gravity="center"
+                android:text="Not \n completed"
+                android:id="@+id/tv_lvl19"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/btn_lvl20"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:layout_margin="12dp"
+            android:background="@drawable/lvl_back" >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+               android:textSize="12sp"
+                android:gravity="center"
+                android:text="Not \n completed"
+                android:id="@+id/tv_lvl20"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background"
+    tools:context=".ui.RecordBoardFragment">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#82787777"/>
+
+    <LinearLayout
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/balance_background"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:drawablePadding="8dp"
+            android:gravity="center"
+            android:paddingLeft="35dp"
+            android:text="Back"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/frame_balance"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="24dp"
+        android:background="@drawable/balance_background"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawableRight="@drawable/coin"
+            android:drawablePadding="8dp"
+            android:gravity="center"
+            android:paddingLeft="30dp"
+            android:text="123"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_board"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Board of Records"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="120dp"/>
+
+<TextView
+    android:id="@+id/tv_yourTop"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/tv_board"
+    android:text="You are 11 in top"
+    android:textSize="16sp"
+    android:layout_marginTop="8dp"
+    android:textColor="@color/white"/>
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_margin="28dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_yourTop"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linear2"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_order_name1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1.Alex"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/tv_order_time1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="10.0 sec"
+                android:textSize="24sp"
+                android:gravity="right"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+android:layout_marginTop="18dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_order_name2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2.Mimi"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/tv_order_time2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="12.2 sec"
+                android:textSize="24sp"
+                android:gravity="right"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_order_name3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3.Alan"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/tv_order_time3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="13.3 sec"
+                android:textSize="24sp"
+                android:gravity="right"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_order_name4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4.Bob"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/tv_order_time4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="15.26 sec"
+                android:textSize="18sp"
+                android:gravity="right"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_order_name5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5.Billy"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/tv_order_time5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="17.36 sec"
+                android:textSize="18sp"
+                android:gravity="right"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_order_name6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6.Donni"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/tv_order_time6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="19.26 sec"
+                android:textSize="18sp"
+                android:gravity="right"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_order_name7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7.Lill"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/tv_order_time7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="22.12 sec"
+                android:textSize="18sp"
+                android:gravity="right"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_order_name8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8.Rose"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/tv_order_time8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="26.16 sec"
+                android:textSize="18sp"
+                android:gravity="right"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_order_name9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9.Amber"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/tv_order_time9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="30.36 sec"
+                android:textSize="18sp"
+                android:gravity="right"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_order_name10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10.Ali"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/tv_order_time10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="40.46 sec"
+                android:textSize="18sp"
+                android:gravity="right"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

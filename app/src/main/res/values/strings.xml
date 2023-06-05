@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Olimpus Labirint</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_pager">PagerActivity</string>
+
+    <string name="pager1title">Lorem Ipsum is simply dummy text</string>
+    <string name="lorem">Lorem Ipsum is simply dummy text</string>
+    <string name="lorem1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.cimen book.</string>
+
+    <string name="facebook_app_id">709357010543028</string>
+
+    <string name="no_internet_connection">"No Internet Connection "</string>
+    <string name="refresh_page">Refresh</string>
+
+
+</resources>
