@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import com.fedlo.tom.olimpuslabirint.R
 import com.fedlo.tom.olimpuslabirint.databinding.FragmentMenuBinding
 import com.fedlo.tom.olimpuslabirint.game.GameFragment
+import com.fedlo.tom.olimpuslabirint.ui.workout.CardSlotFragment
 import com.fedlo.tom.olimpuslabirint.util.PrefManager
 
 
@@ -46,7 +47,7 @@ class MenuFragment : Fragment() {
         }
 
         binding?.btnWorkout?.setOnClickListener {
-            setCurrentFragment(GameFragment())
+            setCurrentFragment(CardSlotFragment())
         }
 
         binding?.tvText?.text = prefManager.balance.toString()
